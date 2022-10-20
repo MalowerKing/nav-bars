@@ -5,7 +5,7 @@
   --text-secondary: #ffe66d;
   --bg-primary: #071013;
   --bg-secondary: #5c5d8d;
-  --transition-speed: 600ms;
+  --transition-speed: 0.2s;
 }
 
 body {
@@ -107,6 +107,7 @@ main {
 
 .navbar:hover .link-text {
   display: block;
+  transition: var(--transition-speed);
 }
 
 /* h1 {
