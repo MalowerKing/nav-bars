@@ -1,18 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+
 :root {
   font-size: 16px;
-  font-family: 'Open Sans';
+  font-family: "Silkscreen", cursive;
   --text-primary: #f1ffc4;
   --text-secondary: #ffe66d;
   --bg-primary: #071013;
   --bg-secondary: #5c5d8d;
-  --transition-speed: 0.2s;
+  --transition-speed: 600ms;
 }
 
 body {
   color: whitesmoke;
   background-image: url(images/low-poly-grid-haikei.svg);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   margin: 0;
   padding: 0;
 }
@@ -76,7 +78,6 @@ main {
   min-width: 5rem;
 }
 
-
 .link-text {
   display: none;
   margin-left: 1rem;
@@ -89,15 +90,7 @@ main {
 }
 
 .fa-primary {
-  color: #ff7eee;
-}
-
-.fa-secondary {
-  color: #df49a6;
-}
-
-.fa-primary,
-.fa-secondary {
+  color: #ffe66d;
   transition: var(--transition-speed);
 }
 
@@ -107,10 +100,8 @@ main {
 
 .navbar:hover .link-text {
   display: block;
-  transition: var(--transition-speed);
 }
 
 /* h1 {
   margin-top:
 } */
-
